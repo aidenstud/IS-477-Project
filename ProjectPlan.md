@@ -37,48 +37,37 @@ Dataset 3: “MTA Subway Service Delivered: 2020-2024”. This dataset is organi
 
 Dataset 4: “MTA Service Alerts: Beginning April 2020”.This dataset is organized by date and records which train lines experienced delays, the content of the public service announcements for each delay, and how many times passengers were updated. This dataset will be integrated with our primary dataset to provide detailed insights into delays since the primary dataset groups “reasons for delays” into six broad categories.
 
-Timeline: Document the plan and timeline for implementing your project including who will complete each task. Your plan must clearly address each of the requirements described above.
+**Timeline:**
 
-Project Planning and Data Acquisition - Aiden & Victoria
-    Dataset cleaning and Preprocessing
-    Clean and standardize delay codes- Both
-    Process large data sets- Aiden
-    Merge datasets into analysis set- Victoria
-    Exploratory Data Analysis
-    Analyze delay reasons, frequencies, and distributions- Victoria
-    Create visualizations of delayed lines/other exploratory visuals- Aiden
-    Advanced Analysis and Impact Modeling
-    Compare peak vs off ride impact- Victoria
-    Calculate time lost per line- Aiden
-    Determine other helpful metrics and create visualizations to represent findings- Both
-    Interim Status Report- Both
-    Create Final Visualizations and Reporting
-    Create final visualizations and summary stats- Victoria
-    Draft final paper- Aiden
-    Final Submission and Release- Aiden & Victoria
-    Final review of code
-    Final review of paper
-    Release on GitHub
-
-
-Constraints: Describe any known constraints.
-Some of the datasets are large and may require memory-efficient processing techniques.
-We may need to bolster our current selection of data with additional sets if we cannot answer our research questions. 
-The “reporting_category” column is broken up into six categories: Crew Availability, External Factors, Infrastructure & Equipment, Operating Conditions, Planned ROW Work, and Police & Medical. These are not super detailed and there is room for interpretation by the reader. 
-The first three datasets are broken up into months whereas the last dataset is broken up by data. We will need to group the data or manipulate the data column in the dataset 4 so we can seamlessly integrate this dataset with the others to make useful comparisons. 
-
-Gaps: Identify any known gaps or areas where you need additional input.
-Your plan should anticipate later course topics even if you don’t yet know all the details. It is expected that your plan will evolve over time.
-Our model and project will simplify passenger journeys. We cannot account for transfers or the ripple effects of one delay on other trains/lines. 
-We anticipate that we will want to expand the scope and components of our project as the course continues. We will evaluate what other concepts we want to include as we come across them. The modules on reproducibility and data documentation will likely influence the scope and nature of our project in the coming weeks.
-Our knowledge of public transport is limited, and we are not from NYC, so our conclusions may not completely be accurate or truly represent the causes of delays and their effects. We hope to provide meaningful analysis and insight into the issue, despite not being professionals in this field.
+1. Project Planning and Data Acquisition - Aiden & Victoria
+2. Dataset cleaning and Preprocessing
+    - Clean and standardize delay codes- Both
+    - Process large data sets- Aiden
+    - Merge datasets into analysis set- Victoria
+3.  Exploratory Data Analysis
+    - Analyze delay reasons, frequencies, and distributions- Victoria
+    - Create visualizations of delayed lines/other exploratory visuals- Aiden
+4.  Advanced Analysis and Impact Modeling
+    - Compare peak vs off ride impact- Victoria
+    - Calculate time lost per line- Aiden
+    - Determine other helpful metrics and create visualizations to represent findings- Both
+    - Interim Status Report- Both
+5.  Create Final Visualizations and Reporting
+    - Create final visualizations and summary stats- Victoria
+    - Draft final paper- Aiden
+6.  Final Submission and Release- Aiden & Victoria
+    - Final review of code
+    - Final review of paper
+    - Release on GitHub
 
 
+**Constraints:** 
+1. Some of the datasets are large and may require memory-efficient processing techniques.
+2. We may need to bolster our current selection of data with additional sets if we cannot answer our research questions. 
+3. The “reporting_category” column is broken up into six categories: Crew Availability, External Factors, Infrastructure & Equipment, Operating Conditions, Planned ROW Work, and Police & Medical. These are not super detailed and there is room for interpretation by the reader. 
+4. The first three datasets are broken up into months whereas the last dataset is broken up by data. We will need to group the data or manipulate the data column in the dataset 4 so we can seamlessly integrate this dataset with the others to make useful comparisons. 
 
-
-
-
-
-
-
-
+**Gaps:**
+1. Our model and project will simplify passenger journeys. We cannot account for transfers or the ripple effects of one delay on other trains/lines. 
+2. We anticipate that we will want to expand the scope and components of our project as the course continues. We will evaluate what other concepts we want to include as we come across them. The modules on reproducibility and data documentation will likely influence the scope and nature of our project in the coming weeks.
+3. Our knowledge of public transport is limited, and we are not from NYC, so our conclusions may not completely be accurate or truly represent the causes of delays and their effects. We hope to provide meaningful analysis and insight into the issue, despite not being professionals in this field.
