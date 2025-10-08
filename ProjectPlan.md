@@ -37,24 +37,6 @@ Dataset 3: “MTA Subway Service Delivered: 2020-2024”. This dataset is organi
 
 Dataset 4: “MTA Service Alerts: Beginning April 2020”.This dataset is organized by date and records which train lines experienced delays, the content of the public service announcements for each delay, and how many times passengers were updated. This dataset will be integrated with our primary dataset to provide detailed insights into delays since the primary dataset groups “reasons for delays” into six broad categories.
 
-Scratch: 
-Dataset 1 : https://data.ny.gov/Transportation/MTA-Subway-Major-Incidents-2020-2024/j6d2-s8m2/data_preview  
-https://data.ny.gov/Transportation/MTA-Subway-Delay-Causing-Incidents-Beginning-2020/g937-7k7c/data_preview - this one goes up until 2025, so maybe this one would be better for the project bc most recent? Seems like this one shows every month what specifically happened, where as the first dataset link is just MAJOR events. I will say tho, the second dataset link categories are more generic (up to interpretation) than the first dataset. LMK what you think. 
-https://data.ny.gov/Transportation/MTA-Subway-Trains-Delayed-Beginning-2020/9zbp-wz3y/data_preview - another link from the nyc gov website. 
-
-
-https://data.ny.gov/Transportation/MTA-Service-Alerts-Beginning-April-2020/7kct-peq7/data_preview - potentially use this as the second dataset? We can match the alert description for each train line and figure out what the vague “reporting_category” descriptions, from the other datasets above,  are talking about? (idk if that makes sense). 
-Also, there are 400k rows of data here tho so we can def clean out some data and select stuff for example only in 2024 since there is sm data in all these datasets. 
-https://data.ny.gov/Transportation/MTA-Daily-Ridership-Data-2020-2025/vxuj-8kew/data_preview - or we can use this, finding out how many people ride the subways. Doesnt tell us how many people ride each line tho… so not too good. 
-https://data.ny.gov/Transportation/MTA-Subway-Service-Delivered-2020-2024/bg59-42xi/data_preview - this could potentially work for dataset 2
-https://data.ny.gov/Transportation/MTA-Subway-Customer-Journey-Focused-Metrics-2020-2/4apg-4kt9/data_preview - i think this may be the best dataset 2 i can find. It tells us the number of passengers for each line for each month. 
-
-We can also have more than 2 datasets -- if you think some are interesting enough. 
-
-
-
-
-
 Timeline: Document the plan and timeline for implementing your project including who will complete each task. Your plan must clearly address each of the requirements described above.
 
 Project Planning and Data Acquisition - Aiden & Victoria
