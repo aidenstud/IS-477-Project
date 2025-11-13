@@ -21,9 +21,11 @@ Do planned maintenance activities (Planned ROW Work delays) correspond to improv
 
 **Team:**
 
-Victoria - organization, research, coding 
-
-Aiden - Research, coding, paper drafting
+* Data Collection and Integration Lead - Victoria
+* Data Integrity Check Lead - Victoria 
+* Data Cleaning Lead - Aidan
+* Data Research Lead - Aidan 
+* Data Vizualization and Analysis Lead(s)- Aidan and Victoria
 
 **Dataset(s):**
 
@@ -39,26 +41,32 @@ Dataset 4: “MTA Service Alerts: Beginning April 2020”.This dataset is organi
 
 **Timeline:**
 
-1. Project Planning and Data Acquisition - Aiden & Victoria
-2. Dataset cleaning and Preprocessing
-    - Clean and standardize delay codes- Both
-    - Process large data sets- Aiden
-    - Merge datasets into analysis set- Victoria
-3.  Exploratory Data Analysis
-    - Analyze delay reasons, frequencies, and distributions- Victoria
-    - Create visualizations of delayed lines/other exploratory visuals- Aiden
-4.  Advanced Analysis and Impact Modeling
-    - Compare peak vs off ride impact- Victoria
-    - Calculate time lost per line- Aiden
-    - Determine other helpful metrics and create visualizations to represent findings- Both
-    - Interim Status Report- Both
-5.  Create Final Visualizations and Reporting
-    - Create final visualizations and summary stats- Victoria
-    - Draft final paper- Aiden
-6.  Final Submission and Release- Aiden & Victoria
-    - Final review of code
-    - Final review of paper
-    - Release on GitHub
+### Week 5-6: Project Planning and Data Acquisition
+
+* **Dataset Overview:** Victoria
+* **Dataset Collection:** Victoria
+* **Research Questions:** Aiden
+* **Timeline:** Aiden
+* **Constraints:** Victoria
+* **Gaps:** Aiden
+
+### Week 7-11: Interim Status Report
+
+* **Week 7-8: (Data Processing)**
+    * Clean and standardize delay codes: Aiden
+    * Process large data sets: Aiden
+    * Merge datasets into analysis set: Victoria
+* **Week 10-12: (Exploratory Data Analysis)**
+    * Analyze delay reasons, frequencies, and distributions: Victoria
+    * Create visualizations: Aiden
+
+### Week 12-15: Final Project Submissions
+
+* Create final visualizations and summary stats: Victoria
+* Workflow automation and provenance with snakemake: Aiden
+* Draft final paper: BOTH
+* Final review of code: BOTH
+* Final review of paper: BOTH
 
 
 **Constraints:** 
@@ -82,4 +90,8 @@ For this Status report, we primarily worked on the Dataset Cleaning and Processi
 INTEGRATION: FINISH! Only included the columns needed for our research questions. 
 
 
-**Aidan's Update Summary and Contribution**
+**Aiden's Update Summary and Contribution**
+
+Updates: Updated project timeline and cleaned datasets so they can be merged.
+
+For this portion of the project, I cleaned our datasets and tried to eliminate any inconsistencies in the Line column. This initial cleaning did not take very long and helped standardize the data. I also updated the project question, so we can more closely align our project focus with class content. The project timeline was also updated to fit the course of the project. We also began answering our initial research questions.
