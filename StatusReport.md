@@ -8,11 +8,11 @@ New York City is one of the most densely populated cities in the world, with mil
 
 What are the most common delays? Do they occur often? 
 
+For each subway line and each month, how many delay-causing incidents occurred, and what was the corresponding Total Additional Platform Time (total APT) experienced by all riders?
+
 Which train line has the most delays? Is the cause for the delay the same each time? Are delays frequent? 
 
 Which train line (delays) have the longest wait times? 
-
-Do peak (rush-hour) riders experience more delays than non-peak riders? Are wait times longer peak vs non-peak?
 
 Which months (in 2024) had the worst customer experience overall, such as longer wait times? 
 
