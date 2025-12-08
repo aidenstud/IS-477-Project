@@ -8,6 +8,8 @@ The project repository is broken up into files and folders (Logical File System)
 
 Driver File Data_Collection_Cleaning: a stand-alone ipynb file that documents data collection, data cleaning, and preparing data for integration and further analysis when answering our research questions. The naming convention follows a descriptive format where the file name directly states its function (data collection and cleaning). 
 
+File requirements.txt: lists all Python packages needed for the project
+
 Folder SHA256: contains private SHA hashes for each dataset. The naming convention for the files in this folder were all "BLANK.sha", BLANK being the variable name for each dataset when we pulled them into VSC. 
 
 Folder Reports: contains written reports submitted (Project Plan, Status Report, and Final Report). The naming convention for these files is descriptive of the report type and its purpose.
