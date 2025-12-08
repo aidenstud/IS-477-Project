@@ -1,6 +1,6 @@
 # Ethical Data Handeling
 
-**Data Collection**
+**Data Collection Process:**
 
 URL for Dataset 1: https://data.ny.gov/Transportation/MTA-Subway-Delay-Causing-Incidents-Beginning-2020/g937-7k7c/about_data --> MTA_SubwayDelayCausingIncidents_Overview.pdf
 

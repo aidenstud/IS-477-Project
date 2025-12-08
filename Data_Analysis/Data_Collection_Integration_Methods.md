@@ -1,6 +1,6 @@
 # Data Collection and Integration Methods
 
-**Data Collection:** 
+**Data Collection Method for this Project:** 
 
 To retrieve the data, we generated an API token by creating an account on the DATA.NY.GOV website. To keep our app token, email, and password private when pushing the project to GitHub, we stored this information in the ".env" and "gitignore" files so it would not be publicly visible.
 
