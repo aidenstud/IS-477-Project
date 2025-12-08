@@ -1,4 +1,6 @@
-Dataset 1 SCHEMA: MTA Subway Delay-Causing Incidents: Beginning 2020
+# Metadata and Data Documentation
+
+**Dataset 1 SCHEMA: MTA Subway Delay-Causing Incidents: Beginning 2020**
 
 | Column Name         | Description                                                                                                                             | Data Type             |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------------------|------------------------|
@@ -9,11 +11,30 @@ Dataset 1 SCHEMA: MTA Subway Delay-Causing Incidents: Beginning 2020
 | reporting_category  | The six categories that delays are reported under: Crew Availability, External Factors, Infrastructure & Equipment, Operating Conditions, Planned ROW Work, and Police & Medical. | Text                   |
 | Incidents           | The number of train incidents that caused one or more delays, per reporting category, line, and month.                                  | Number                 |
 
+<br>
+
+Under the MTA Subway Delay-Causing Incidents Overview the reporting categories are defined as: 
+- Crew Availability: Delays caused by lack of crew (train operator, conductor, and/or tower
+operator).
+- Planned ROW Work: Delays due to planned right-of-way work for maintenance and capital
+projects.
+- Infrastructure & Equipment: Delays due to infrastructure and equipment failures on the system.
+These failures may include issues with signaling, track, car equipment, stations, and more—
+provided that it is found that a group within the Department of Subways was responsible for the
+problem. This category also includes any delays that resulted from the activities of internal
+personnel
+- Police & Medical: Delays resulting from actions taken by the public. This category encompasses
+delays that relate to customer misconduct, the police response to incidents, sick and injured
+passengers, unauthorized persons on the roadbed, or persons come in contact with trains.
+- Operating Conditions: Delays due to congestion, crowding, and from trains skipping stops to
+manage other delays.
+- External Factors: Delays caused by factors outside the agency’s control, such as power outages,
+fires outside MTA property, bridge openings, external debris that fall on our tracks, and
+inclement weather
 
 <br><br>
 
-
-Dataset 2 SCHEMA: MTA Subway Customer Journey-Focused Metrics: 2020-2024
+**Dataset 2 SCHEMA: MTA Subway Customer Journey-Focused Metrics: 2020-2024**
 
 | Column Name                  | Description                                                                                                                                                                             | Data Type            |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
