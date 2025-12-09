@@ -9,7 +9,7 @@ Accuracy: Amongst all 6 columns, the columns were both syntactically and semanti
 
 Completeness: The dataset had 538 rows containing missing data. This was because the first row for each train line for each day (either weekend or weekday) always starts off with a blank under the Reporting Category Col and a 0 in the incidents column. While this is intentional and not an indicator of missing data, it is still something to be aware of. 
 
-Timeliness: According to the Data.NY.Gov website, this dataset was just recently updated on October 24, 2025. As stated in documentation, this dataset is updated each month. Both the data and the meta data were uploaded on the same day. The dataset provides content for each line for each month starting from 20-01-01. 
+Timeliness: According to the Data.NY.Gov website, this dataset was just recently updated on November 14, 2025. As stated in documentation, this dataset is updated each month. Both the data and the meta data were uploaded on the same day. The dataset provides content for each line for each month starting from 20-01-01. 
 
 Consistency: The dataset is consistent. Under the Reporting Category, there are 6 options to choose from and no other variations so it is easy to categorize the types of incidents. While these 6 options help with consistency, it does limit true understanding of what actual incident is. The other columns are consistent as well: The Month column follows the same syntax of Year-Month-Day, the Division column only has options from A Division or B Division, the Line column only contains numbers or letters of real train lines in the MTA, and the Incidents column only has numbers.  
 
@@ -33,7 +33,7 @@ Completeness: The dataset has no rows containing missing data.
 
 Timeliness: According to the Data.NY.Gov website, this dataset was updated January 24, 2025 and the meta data was updated July 14, 2025. Although it is not updated as frequently as the other datasets, it is not relevant in our case because we are only looking at 2024 data for our research questions and there is data for each month for each line in this dataset. 
 
-Consistency: The dataset is consistent. The Month column follows the same syntax of Year-Month-Day, the Line column only contains numbers or letters of real train lines in the MTA,  the Division column only has options from A Division or B Division, the Period column only has options from Peak or Offpeak, and the Num_passengers column only has numbers, columns Additional Platform Time, Additional Train Time, Total_apt, Total_att, and Over_five_mins are all in minutes, and the Over_five_mins_perc and Customer journey time performance columns are all in percentages. 
+Consistency: The dataset is consistent. The Month column follows the same syntax of Year-Month-Day, the Line column only contains numbers or letters of real train lines in the MTA, the Division column only has options from A Division or B Division, the Period column only has options from Peak or Offpeak, and the Num_passengers column only has numbers, columns Additional Platform Time, Additional Train Time, Total_apt, Total_att, and Over_five_mins are all in minutes, and the Over_five_mins_perc and Customer journey time performance columns are all in percentages. 
 
 DATA.NY.GOV also provides a MTA Subway Customer Journey-Focused Metrics report that presents an overview of the data. Some limitations noted relate to impacting Accuracy, Timeliness, Completeness, and Consistency:
 - Train movement data can contain errors or missing records, requiring interpolation or backup data sources. 
@@ -43,7 +43,7 @@ DATA.NY.GOV also provides a MTA Subway Customer Journey-Focused Metrics report t
 - Metrics are only calculated for weekdays between 6 AM–11 PM, leaving gaps for late nights and weekends.
 - Only one “representative” weekday per month is modeled, which may not capture daily variation.
 - Months affected by disruptions (ex: COVID, Omicron) contain partial data and require estimation.
-- Changes to the data-processing pipeline (e.g., in 2024) make metrics not fully consistent with earlier years.
+- Changes to the data-processing pipeline (ex: 2024) make metrics not fully consistent with earlier years.
 
 <br><br>
 

@@ -2,3 +2,5 @@
 
 # Ignore environment files
 .env
+
+Outputs/
